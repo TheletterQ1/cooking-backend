@@ -82,7 +82,4 @@ test:
 #
 production:
   <<: *default
-  # database: cooking_backend_production
-  # username: test5
-  # password: test5
   # <%= ENV['COOKING_BACKEND_DATABASE_PASSWORD'] %>

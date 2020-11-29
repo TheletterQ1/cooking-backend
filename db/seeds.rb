@@ -6,8 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-event = Event.create(title: "Learn SE Asian Cuisine", date: "12/1/2020 at 6:30PM PT", location: "zoom adress---");
-event = Event.create(title: "Learn South American Cuisine", date: "12/8/2020 at 6:30PM PT", location: "zoom adress---");
+event = Event.create(title: "Learn SE Asian Cuisine", date: "12/1/2020", time:" 6:30PM PT", location: "zoom adress---");
+event = Event.create(title: "Learn South American Cuisine", date: "12/8/2020", time:" 6:30PM PT", location: "zoom adress---");
 
-user = User.create( email: "relationshiptest@too.com" , username: "h1", password: "testing")
+user = User.create( email: "relationshiptest@too.com" , username: "bernard-alfred", password: "testing")
 user = User.create( email: "ricky@me.com", username: "ricky305", password: "threeohfive")
+
+
+puts "Seeded database"
