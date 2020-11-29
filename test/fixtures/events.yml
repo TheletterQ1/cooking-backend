@@ -3,11 +3,11 @@
 one:
   title: MyString
   date: MyString
-  time: MyString
   location: MyString
+  user: one
 
 two:
   title: MyString
   date: MyString
-  time: MyString
   location: MyString
+  user: two
